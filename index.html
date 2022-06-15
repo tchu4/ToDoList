@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<!-- Title -->
+	<title>To Do List</title>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Link to Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	
+	<!-- Link to CSS file for format -->
+	<link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+	<!-- Title -->
+	<header>
+		<h1> To Do List </h1>
+	</header>
+	
+	<!-- To Do List Bullets Displayed -->
+	<div class = "task_container">
+		<ul class = "todo_list"></ul>
+	</div>
+	
+
+	<!-- Add task by using form element-->
+	<form>
+		<!-- Add input text place and submit button -->
+		
+		<!-- Input Forms -->
+		<input type = "text" placeholder = "Add task item" class = "inputtask_task">
+		<button class = "button_addtask">
+			<!-- Add icon -->
+			<i class = "fas fa-plus-square"> </i>
+		</button>
+		
+		<input type = "date" class = "inputtask_date"/>
+		
+	</form>
+	
+	<!-- Script -->
+	<script src = ./main.js></script>
+	
+</body>
+</html>
